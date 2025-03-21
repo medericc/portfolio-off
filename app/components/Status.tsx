@@ -89,22 +89,23 @@ const SIDE_PROJECTS: SideProjectProps[] = [
 
 
 const CERT: CertProps[] = [
-  {
-    image: "/cert.png",
-    title: "Certificat",
-    role: "Écologie",
-    url: "/eco.pdf",
-  },
+  
   {
     image: "oceanologie.png",
-    title: "Certificat",
-    role: "Océanographie",  
+    title: "Océanographie",
+    role: "Certificat",  
     url: "/oceanologie.png",
   },
   {
+    image: "/cert.png",
+    title: "Écologie",
+    role: "Certificat",
+    url: "/eco.pdf",
+  },
+  {
     image: "géopolitique.png",
-    title: "Certificat",
-    role: "Géopolitique",
+    title: "Géopolitique",
+    role: "Certificat",
     url: "/géopolitique.png",
   },
 ];
